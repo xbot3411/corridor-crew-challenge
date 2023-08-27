@@ -185,6 +185,8 @@ def check(file_path):
         return False
     print("File " + file_path + " OK!")
 
+    return True
+
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         print("Usage: {} path/to/you/file/or/directory".format(os.path.basename(sys.argv[0])))
