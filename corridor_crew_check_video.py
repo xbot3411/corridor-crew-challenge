@@ -221,6 +221,8 @@ if __name__ == "__main__":
     for f in ok:
         print(f)
 
+    print("")
+
     print("Not OK videos")
     print("-------------")
     for f in nok:
